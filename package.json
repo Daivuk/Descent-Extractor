@@ -1,0 +1,17 @@
+{
+  "name": "descentextractor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "extractor.js",
+  "dependencies": {
+    "args": "^5.0.1",
+    "pcx-js": "^1.1.0",
+    "pngjs": "^3.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

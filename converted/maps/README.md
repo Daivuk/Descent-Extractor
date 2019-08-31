@@ -1,0 +1,1 @@
+RDL or SDL map files from HOG file

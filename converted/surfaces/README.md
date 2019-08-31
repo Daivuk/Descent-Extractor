@@ -1,0 +1,1 @@
+HMP bitmap files from HOG file
