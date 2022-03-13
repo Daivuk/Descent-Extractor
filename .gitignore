@@ -61,7 +61,7 @@ typings/
 .next
 
 # Descent files
-.hog
-.pig
+*.hog
+*.pig
 output/
 converted/
