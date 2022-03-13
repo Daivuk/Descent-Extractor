@@ -11,3 +11,6 @@ Node JS tool to extract assets from Descent game and convert them
    node extractor.js
    ```
 
+Extracted assets in their Raw data will be inside `output/` directory.
+
+The converted assets into PNGs will be inside `converted/` directory.

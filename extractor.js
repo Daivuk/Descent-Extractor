@@ -13,6 +13,7 @@ let output_briefings = true
 let output_surfaces = true
 let output_font = true
 let output_maps = true
+
 //TODO digitest.raw (Its a sound I think)
 //TODO levels
 
@@ -165,6 +166,8 @@ if (output_sounds || output_textures)
 {
     let file_data = fs.readFileSync("./input/DESCENT.PIG")
     let file_offset = 0
+
+    file_offset = file_data.readInt32LE(file_offset)
 
     let num_textures = file_data.readInt32LE(file_offset)
     file_offset += 4
