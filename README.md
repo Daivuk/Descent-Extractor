@@ -14,3 +14,6 @@ Node JS tool to extract assets from Descent game and convert them
 Extracted assets in their Raw data will be inside `output/` directory.
 
 The converted assets into PNGs will be inside `converted/` directory.
+
+Only thing missing are Models.
+![](preview.png)
